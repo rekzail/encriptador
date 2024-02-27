@@ -53,7 +53,7 @@ function encriptarTexto(texto) {
         'u': 'ufat'
     };
 
-    // Convertir cada letra según el mapa
+    
     let textoEncriptado = texto.split('').map(letra => {
         return mapaEncriptacion[letra] || letra;
     }).join('');
@@ -72,7 +72,7 @@ function desencriptarTexto(texto) {
         'ufat': 'u'
     };
 
-    // Convertir cada letra según el mapa
+
     let textoDesencriptado = texto.split('').map(letra => {
         return mapaEncriptacion[letra] || letra;
     }).join('');
