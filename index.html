@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <Img class="logo" src="assets/logo.jpg"></Img>
+        <div class="row">
+            
+            <div class="col-70">
+                
+                <div>
+                    
+                    <input type="text" id="tomar" placeholder="Ingrese el texto aqui">
+                   
+                </div>
+                <div>
+                    &#9888; Solo letras minúsculas y sin acentos
+                </div>
+                <div class="botones">
+                    <button class="Encriptar" onclick="encriptar()">Encriptar</button>
+                    <button class="Desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+
+            </div>
+            
+                <div class="col-30">
+                    
+                    <img id="imagen" src="assets/people.jpg" alt="">
+                    <h3 id="subtitulo">Ningún mensaje fue encontrado</h3>
+            
+                    <p id="des">Ingresa el texto que deseas encriptar o desencriptar.</p>
+                </div>
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
